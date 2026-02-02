@@ -42,3 +42,8 @@ Analyzed "Life Project" class materials for partner schools, identifying inconsi
 * **Advanced:** Python
 * **Academic Level:** Power BI, Excel, C
 * **Basic:** HTML, CSS, JSON, N8N, Zaia
+
+## 🌍 Additional
+
+### 💡 Hackathon Mentor — Escola Americana de Vitória
+* Mentored teams in developing innovative solutions (2024).
