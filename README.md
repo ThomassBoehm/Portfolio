@@ -42,8 +42,3 @@ Analyzed "Life Project" class materials for partner schools, identifying inconsi
 * **Advanced:** Python
 * **Academic Level:** Power BI, Excel, C
 * **Basic:** HTML, CSS, JSON, N8N, Zaia
-
-
-
-### 🤝 Community Work — Casa da Criança e do Adolescente
-* Organized collection of toys, food, and funds for Children's Day (2023).
