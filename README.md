@@ -43,14 +43,7 @@ Analyzed "Life Project" class materials for partner schools, identifying inconsi
 * **Academic Level:** Power BI, Excel, C
 * **Basic:** HTML, CSS, JSON, N8N, Zaia
 
-## 🌍 Additional
 
-### 🏉 Rugby Mauá — Instituto Mauá de Tecnologia
-* **Role:** Athlete and Marketing Support (2024–Present)
-* **Achievement:** 3x University Rugby Champion (FUPE). Contributed to team dissemination strategies.
-
-### 💡 Hackathon Mentor — Escola Americana de Vitória
-* Mentored teams in developing innovative solutions (2024).
 
 ### 🤝 Community Work — Casa da Criança e do Adolescente
 * Organized collection of toys, food, and funds for Children's Day (2023).
