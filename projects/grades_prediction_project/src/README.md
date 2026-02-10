@@ -25,7 +25,10 @@ grades_prediction_project/src
 │           └── genetic_algorithm_viewmodel.py    # Manages UI state/data
 └── shared/
     └── domain/
-        └── genetic_algorithm_solver.py       # Core GA logic (The Solver)
+        ├──  genetic_algorithm_solver.py       # Core GA logic (The Solver)
+        └── entities/
+            └── boletim_ga.py # Grade & Weight Data Models
+
 
 ```
 
@@ -34,6 +37,7 @@ grades_prediction_project/src
 This project goes beyond a simple script by implementing structural patterns:
 
 * **Domain (Solver):** The `genetic_algorithm_solver.py` contains the pure mathematical logic of the genetic algorithm (population initialization, selection, crossover, mutation, and fitness calculation). It is independent of the application layer.
+* **Data Modeling (Boletim):** The boletim_GA.py is responsible for modeling the academic report card. It defines the structure of subjects, exams, and weights, acting as the ground truth for the fitness function to calculate whether a generated solution meets the student's target.
 * **Use Case:** Coordinate the flow of data to and from the solver, applying application-specific rules.
 * **Controller & Presenter:** Manage the input/output cycle, ensuring the core logic remains decoupled from how the data is displayed or received.
 
