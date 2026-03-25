@@ -13,6 +13,16 @@ Developed an end-to-end data preparation pipeline to clean, filter, and pre-proc
 Academic project developing a generic algorithm to calculate the necessary grades in future evaluations to reach a user-defined target.
 * **Tech used:** Python, Genetic Algorithms
 * **Status:** In progress (06/2025–Present)
+  
+### 🔹 Power BI Studies (IMT)
+Academic project featuring data analysis and dashboards created during a dedicated Power BI class at Instituto Mauá de Tecnologia.
+* **Tech used:** Power BI, Data Visualization, Data Analysis
+
+### 🔹 Excel Studies (IMT)
+Academic repository containing Excel spreadsheets developed for Computational Mathematics studies and practical exercises at Instituto Mauá de Tecnologia.
+* **Tech used:** Excel, Computational Mathematics, Data Manipulation
+
+## 💼 Professional Experiences
 
 ### 🔹 Access Control Optimization (OPTSOLV)
 Developed a proposal to optimize employee and visitor entry at ArcelorMittal. The solution included conveyor belts, cameras, and object weighing, reducing average entry time by 20 minutes for over 1,000 people daily.
