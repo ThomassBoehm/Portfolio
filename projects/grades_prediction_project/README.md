@@ -9,27 +9,39 @@ The system takes the user's current grades and their desired goal (Meta) as inpu
 * **Optimization Engine:** Uses a custom Genetic Algorithm to "evolve" solutions, finding the best combination of future grades.
 * **Goal-Oriented:** Users define a specific target (e.g., "I want a final grade of 8.0"), and the algorithm works backward to find the path.
 * **Clean Architecture:** The project is structured using modular design principles, separating business logic, control flow, and data presentation.
+* **Test-Driven:** Includes a comprehensive suite of unit tests for controllers, presenters, use cases, and domain entities to ensure algorithmic accuracy and structural integrity.
 
 ## 📂 Project Structure
 
-The project follows a modular architecture to ensure separation of concerns and maintainability.
+The project follows a modular architecture to ensure separation of concerns and maintainability, mirrored by a dedicated testing suite.
 
 ```text
-grades_prediction_project/src
-├── modules/
-│   └── genetic_algorithm/
-│       └── app/
-│           ├── genetic_algorithm_controller.py   # Handles incoming requests
-│           ├── genetic_algorithm_presenter.py    # Formats data for the view
-│           ├── genetic_algorithm_usecase.py      # Application specific business rules
-│           └── genetic_algorithm_viewmodel.py    # Manages UI state/data
-└── shared/
-    └── domain/
-        ├──  genetic_algorithm_solver.py       # Core GA logic (The Solver)
-        └── entities/
-            └── boletim_ga.py # Grade & Weight Data Models
-
-
+grades_prediction_project/
+├── src/
+│   ├── modules/
+│   │   └── genetic_algorithm/
+│   │       └── app/
+│   │           ├── genetic_algorithm_controller.py   # Handles incoming requests
+│   │           ├── genetic_algorithm_presenter.py    # Formats data for the view
+│   │           ├── genetic_algorithm_usecase.py      # Application specific business rules
+│   │           └── genetic_algorithm_viewmodel.py    # Manages UI state/data
+│   └── shared/
+│       └── domain/
+│           ├── genetic_algorithm_solver.py        # Core GA logic (The Solver)
+│           └── entities/
+│               └── boletim_ga.py                  # Grade & Weight Data Models
+└── tests/
+    ├── modules/
+    │   └── genetic_algorithm/
+    │       └── app/
+    │           ├── test_genetic_algorithm_controller.py
+    │           ├── test_genetic_algorithm_presenter.py
+    │           ├── test_genetic_algorithm_usecase.py
+    │           └── test_genetic_algorithm_viewmodel.py
+    └── shared/
+        └── domain/
+            └── entities/
+                └── test_boletim_ga.py
 ```
 
 ## 🛠 Architecture & Design
@@ -43,7 +55,7 @@ This project goes beyond a simple script by implementing structural patterns:
 
 ## 💻 Tech Stack
 
-* **Language:** Python 3.x
+* **Language:** Python 3.14.2
 * **Concepts:** Genetic Algorithms, Evolutionary Computing, Clean Architecture, Object-Oriented Programming (OOP).
 
 ---
