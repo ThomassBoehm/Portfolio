@@ -16,7 +16,7 @@ The system takes the user's current grades and their desired goal (Meta) as inpu
 The project follows a modular architecture to ensure separation of concerns and maintainability, mirrored by a dedicated testing suite.
 
 ```text
-grades_prediction_project/
+Grades Prediction Project/
 ├── src/
 │   ├── modules/
 │   │   └── genetic_algorithm/

@@ -4,6 +4,11 @@ This repository gathers my projects, academic activities, and professional exper
 
 ## 📂 Projects
 
+### 🔹 Public Health Data Prep & ML Pipeline (NSEE-IMT Challenge)
+Developed an end-to-end data preparation pipeline to clean, filter, and pre-process the São Paulo Cancer Hospital Registry (RHC/SP) database for Machine Learning applications. The project included feature engineering, missing data imputation, and categorical encoding (One-Hot Encoding), strictly adhering to LGPD guidelines.
+* **Tech used:** Python, Pandas, NumPy, Data Analysis, Machine Learning Prep
+* **Period:** Mar 2026
+
 ### 🔹 Genetic Algorithm for Grade Optimization (Dev Community Mauá)
 Academic project developing a generic algorithm to calculate the necessary grades in future evaluations to reach a user-defined target.
 * **Tech used:** Python, Genetic Algorithms
